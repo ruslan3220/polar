@@ -1,0 +1,387 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url('fonts/Mulish-SemiBold.woff2') format('woff2'),
+        url('fonts/Mulish-SemiBold.woff') format('woff'),
+        url('fonts/Mulish-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Light.woff2') format('woff2'),
+        url('../fonts/Mulish-Light.woff') format('woff'),
+        url('../fonts/Mulish-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Regular.woff2') format('woff2'),
+        url('../fonts/Mulish-Regular.woff') format('woff'),
+        url('../fonts/Mulish-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Bold.woff2') format('woff2'),
+        url('../fonts/Mulish-Bold.woff') format('woff'),
+        url('../fonts/Mulish-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish';
+    margin: 0;
+}
+.container{
+    width: 1287px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+img{
+    display:inline-block;
+}
+/* Logo  */
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+.logo-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    width: 545px;
+}
+.logojon{
+    width: 160px;
+    height: 40px;
+}
+.logo-item{
+    margin-left: 30px;
+}
+.logo-top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+
+}
+.logo-head{
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+color: #000000;
+width: 425px;
+margin-top: 90px;
+
+}
+.logo-top-middle{
+font-weight: 300;
+font-size: 21px;
+line-height: 32px;
+color: #7D7987;
+width: 444px;
+}
+.logo-top-link{
+font-weight: bold;
+font-size: 18px;
+line-height: 60px;
+background: #458FF6;
+border-radius: 55px;
+color: #FFFFFF;
+text-decoration: none;
+padding: 10px 30px;
+}
+.logo-top-img{
+    margin-left: auto;
+}
+/* Our services */
+.our-services{
+display: flex;
+flex-direction: row;
+margin-top: 40px;
+flex-direction: column;
+margin-left: 200px;
+width: 950px;
+}
+.our-services-top{
+text-align: center;
+font-weight: bold;
+font-size: 36px;
+line-height: 56px;
+color: #000000;
+}
+.our-services-line{
+    width: 30px;
+}
+.our-services-word{
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #7D7987;
+
+}
+.our-services-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+
+}
+.our-services-item{
+    border-radius: 10px;
+    padding: 50px 50px 30px 30px;
+    margin: 15px;
+    width: 335px;
+    height: 335px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.services-link{
+font-weight: bold;
+font-size: 18px;
+line-height: 60px;
+border: 1px solid #458FF6;
+border-radius: 55px;
+color: #458FF6;
+text-decoration: none;
+padding: 10px 40px;
+margin-left: 600px;
+}
+/* Leading healthcare providers  */
+.providers-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 200px;
+}
+.providers-img{
+    margin-left: 100px;
+}
+.providers-list{
+    margin-left: 200px;
+}
+.providers-top{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+    width: 400px;
+    margin-top: 90px;
+}
+.providers-line{
+    width: 30px;
+    margin-right: 470px;
+}
+.providers-item{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    width: 500px;
+}
+.providers-link{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+/* Download our mobile apps */
+.mobile-apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 200px;
+}
+.mobile-apps-top{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+    width: 400px;
+    margin-top: 90px;
+}
+.mobile-apps-line{
+    width: 30px;
+    margin-right: 600px;
+}
+.mobile-apps-middle{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    width: 500px;
+}
+.mobile-apps-link{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+/* What our customer are saying */
+.customer-head{
+    background-color: #5A98F2;
+    margin-top: 200px;
+    border-radius: 30px;
+}
+.customer-top{
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    padding: 40px 0 0 0;
+}
+.customer-line{
+    width: 60px;
+    text-align: center;
+}
+.customer-middle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.customer-img{
+    border-radius: 100%;
+    margin: -10px 30px 50px 110px;
+    border: 3px solid #fff;
+}
+.customer-list{
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+}
+.customer-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    width: 400px;
+    margin-left: 200px;
+    color: #fff;
+    margin-top: -5px;
+}
+/* Check out our latest article */
+.our-latest{
+    margin-top: 200px;
+}
+.our-latest-top{
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+}
+.our-latest-line{
+    width: 60px;
+    margin-bottom: 80px;
+}
+.our-latest-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+.our-latest-item{
+    width: 350px;
+
+}
+.our-lstest-head{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.our-latest-middle{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #7D7987;
+}
+.our-latset-link{
+    margin-left: 30px;
+    text-decoration: none;
+    color:  #5A98F2;
+}
+.view-link{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 200px;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin-left: 550px;
+}
+/* BOTTOM0 */
+.site-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   background-color:  #458FF6;
+   height: 400px;
+   border-radius: 20px;
+   margin-top: 200px;
+}
+.site-bottom-logo{
+    padding:130px 150px;
+}
+.logo-img{
+    padding: 10px 10px ;
+    margin-top: 100px;
+}
+.site-bottom-list{
+    color: #fff;
+    font-size: 20px;
+    width: 300px;
+    line-height: 2;
+}
+.site-bottom-item{
+    color: #fff;
+}
+.bottom-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+}
+.region-item{
+    margin:  0 100px;
+}
+/* BACKGROUND IMG  */
+.our-services-head{
+    background-image: url("../images/frame-back.png"),url("../images/element.png");
+    background-repeat: no-repeat,no-repeat;
+    background-position: -50px , right 530px;
+}
+.site-header-one{
+    background-image: url("../images/element.png");
+    background-repeat: no-repeat;
+    background-position: left center,top 20px;
+}
